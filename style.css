@@ -110,8 +110,29 @@ nav div{
 
 .right img{
   height: 95%;
-  width: auto;
+  /* width: auto; */
   position: absolute;
   bottom:0px;
   left:50%;
+}
+
+
+/* MAIN */
+
+  /* grey row */
+.grey-row{
+  background: #f9f9f9;
+  text-align: center;
+  padding: 40px 20px 30px 20px;
+}
+.grey-row h4{
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+.grey-row h5{
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 8px;
+  color: #999;
 }
