@@ -24,7 +24,20 @@ ul {
   list-style-type: none;
 }
 
-.logo, .servizi{
+nav a{
+  font-weight: 700;
+  font-size: 11px;
+  color: white;
+  text-decoration: none;
+}
+
+nav{
+  margin: auto;
+  width: 70vw;
+  box-sizing: border-box;
+}
+
+/* .logo, .servizi{
   float: left;
 }
 .azioni{
@@ -39,16 +52,26 @@ nav::after{
 nav li{
   display: inline-block;
   vertical-align: middle;
+} */
+
+nav div{
+  display: inline-block;
+  vertical-align: middle;
 }
 
-nav a{
-  font-weight: 700;
-  font-size: 11px;
-  color: white;
-  text-decoration: none;
+.logo li, .servizi li{
+  float: left;
+}
+.azioni li{
+  float: right;
 }
 
-nav{
-  margin: auto;
-  width: 70vw;
+.logo{
+  width: 15%;
+}
+.servizi{
+  width: 45%;
+}
+.azioni{
+  width: 38%;
 }
