@@ -33,37 +33,25 @@ nav a{
 
 nav{
   margin: auto;
-  width: 70vw;
+  width: 75vw;
   box-sizing: border-box;
 }
-
-/* .logo, .servizi{
-  float: left;
-}
-.azioni{
-  float: right;
-}
-nav::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-nav li{
-  display: inline-block;
-  vertical-align: middle;
-} */
 
 nav div{
   display: inline-block;
   vertical-align: middle;
+  box-sizing: border-box;
 }
 
 .logo li, .servizi li{
   float: left;
+  padding: 5px 10px;
+  margin: 20px 5px;
 }
 .azioni li{
   float: right;
+  padding: 2px 25px;
+  margin: 20px 5px;
 }
 
 .logo{
@@ -74,4 +62,16 @@ nav div{
 }
 .azioni{
   width: 38%;
+}
+
+#tutor a{
+  color: rgb(123, 145, 168);
+}
+#login{
+  border: 1px solid #4e8cb6;
+  border-radius: 5px;
+}
+#piano{
+  background: #7fb802;
+  border-radius: 5px;
 }
