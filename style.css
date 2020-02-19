@@ -74,14 +74,13 @@ nav div{
   /* cover */
 .cover{
   background-color:#0d325a;
-  width: 100vw;
   height: 410px;
   position: relative;
   box-sizing: border-box;
 }
 
 .left, .right{
-  width: 48%;
+  width: 55%;
   height: 100%;
 }
 
@@ -108,13 +107,21 @@ nav div{
   left: 8%;
 }
 
-.right img{
-  height: 95%;
-  /* width: auto; */
+.right{
+  background: url(img/cover.png);
+  background-size: cover;
   position: absolute;
   bottom:0px;
-  left:50%;
+  right:0%;
 }
+
+/* .right img{
+  height: 95%;
+  width: auto;
+  position: absolute;
+  bottom:0px;
+  left:0%;
+} */
 
 
 /* MAIN */
