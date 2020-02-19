@@ -33,7 +33,7 @@ nav a{
 
 nav{
   margin: auto;
-  width: 75vw;
+  width: 85vw;
   box-sizing: border-box;
 }
 
@@ -45,24 +45,18 @@ nav div{
 
 .logo li, .servizi li{
   float: left;
-  padding: 5px 10px;
+  padding: 5px 5px;
   margin: 20px 5px;
 }
 .azioni li{
   float: right;
-  padding: 2px 25px;
+  padding: 2px 22px;
   margin: 20px 5px;
 }
 
-.logo{
-  width: 15%;
-}
-.servizi{
-  width: 45%;
-}
-.azioni{
-  width: 38%;
-}
+.logo{ width: 15%;}
+.servizi{ width: 45%; }
+.azioni{ width: 38%; }
 
 #tutor a{
   color: rgb(123, 145, 168);
@@ -74,4 +68,50 @@ nav div{
 #piano{
   background: #7fb802;
   border-radius: 5px;
+  border: 1px solid #7fb802;
+}
+
+  /* cover */
+.cover{
+  background-color:#0d325a;
+  width: 100vw;
+  height: 410px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.left, .right{
+  width: 48%;
+  height: 100%;
+}
+
+.left h1{
+  color: white;
+  font-size: 2.7em;
+  font-weight: normal;
+  margin-bottom: 30px
+}
+.left a{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background: #7fb802;
+  margin: 25px 0px;
+}
+
+.left{
+  position: absolute;
+  top:20%;
+  left: 8%;
+}
+
+.right img{
+  height: 95%;
+  width: auto;
+  position: absolute;
+  bottom:0px;
+  left:50%;
 }
