@@ -1,0 +1,54 @@
+@font-face {
+font-family: "Museo Sans";
+src: url("fonts/MuseoSans_500.otf");
+}
+
+body{
+  font-family: 'Museo Sans';
+  line-height: 1.5;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* HEADER */
+
+header{
+  background: #0d325a;
+}
+
+  /* nav */
+ul {
+  list-style-type: none;
+}
+
+.logo, .servizi{
+  float: left;
+}
+.azioni{
+  float: right;
+}
+nav::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav a{
+  font-weight: 700;
+  font-size: 11px;
+  color: white;
+  text-decoration: none;
+}
+
+nav{
+  margin: auto;
+  width: 70vw;
+}
