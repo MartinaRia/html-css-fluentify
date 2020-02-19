@@ -79,18 +79,18 @@ nav div{
   box-sizing: border-box;
 }
 
-.left, .right{
+.cover .left, .right{
   width: 55%;
   height: 100%;
 }
 
-.left h1{
+.cover .left h1{
   color: white;
   font-size: 2.7em;
   font-weight: normal;
   margin-bottom: 30px
 }
-.left a{
+.cover .left a{
   color: white;
   text-decoration: none;
   font-size: 12px;
@@ -101,27 +101,19 @@ nav div{
   margin: 25px 0px;
 }
 
-.left{
+.cover .left{
   position: absolute;
   top:20%;
   left: 8%;
 }
 
-.right{
+.cover .right{
   background: url(img/cover.png);
   background-size: cover;
   position: absolute;
   bottom:0px;
   right:0%;
 }
-
-/* .right img{
-  height: 95%;
-  width: auto;
-  position: absolute;
-  bottom:0px;
-  left:0%;
-} */
 
 
 /* MAIN */
@@ -132,14 +124,63 @@ nav div{
   text-align: center;
   padding: 40px 20px 30px 20px;
 }
-.grey-row h4{
+.grey-row h3{
   font-size: 24px;
   font-weight: 300;
   margin-top: 8px;
 }
-.grey-row h5{
+.grey-row h4{
   font-size: 18px;
   font-weight: 300;
   margin-top: 8px;
   color: #999;
+}
+
+  /* three-pics-row */
+.three-pics-row{
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.three-pics-row .col{
+  width: 30%;
+  height:auto;
+  float: left;
+  margin: 20px
+}
+.three-pics-row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.three-pics-row img{
+  width: auto;
+  height: 160px;
+  margin-bottom: 55px;
+}
+
+.three-pics-row h4{
+  font-size: 23px;
+  color: #7fb802;
+  font-weight: normal;
+  height: 50px;
+  line-height: 1.1;
+
+}
+
+.three-pics-row p{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #999;
+}
+
+.three-pics-row hr{
+  width: 32px;
+  border: 1px solid;
+  margin: 1rem auto;
+  color: rgb(195, 196, 197);
 }
