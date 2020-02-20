@@ -11,15 +11,16 @@ body{
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
-/* HEADER */
+/* HEADER ------------------------------------------ */
 
 header{
   background: #0d325a;
 }
 
-  /* nav */
+  /* nav ------------------------------------------ */
 ul {
   list-style-type: none;
 }
@@ -71,7 +72,7 @@ nav div{
   border: 1px solid #7fb802;
 }
 
-  /* cover */
+  /* cover ------------------------------------------ */
 .cover{
   background-color:#0d325a;
   height: 410px;
@@ -116,9 +117,9 @@ nav div{
 }
 
 
-/* MAIN */
+/* MAIN ------------------------------------------ */
 
-  /* grey row */
+  /* grey row ------------------------------------------ */
 .grey-row{
   background: #f9f9f9;
   text-align: center;
@@ -136,24 +137,21 @@ nav div{
   color: #999;
 }
 
-  /* three-pics-row */
+  /* three-pics-row ---------------------------------- */
 .three-pics-row{
-  width: 90%;
+  width: 95%;
   margin: 20px auto;
   text-align: center;
   box-sizing: border-box;
+  border-bottom: solid 1px lightgrey;
 }
 
 .three-pics-row .col{
   width: 30%;
-  height:auto;
-  float: left;
-  margin: 20px
-}
-.three-pics-row::after{
-  content: "";
-  display: table;
-  clear: both;
+  height: auto;
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .three-pics-row img{
@@ -162,11 +160,11 @@ nav div{
   margin-bottom: 55px;
 }
 
-.three-pics-row h4{
+.three-pics-row h3{
   font-size: 23px;
   color: #7fb802;
   font-weight: normal;
-  height: 50px;
+  min-height: 50px;
   line-height: 1.1;
 
 }
@@ -176,6 +174,7 @@ nav div{
   font-weight: 300;
   line-height: 25px;
   color: #999;
+  padding: 20px;
 }
 
 .three-pics-row hr{
@@ -183,4 +182,56 @@ nav div{
   border: 1px solid;
   margin: 1rem auto;
   color: rgb(195, 196, 197);
+}
+
+  /* montagna-row --------------------------- */
+.montagna-row{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.montagna-row .col{
+  width: 48%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+  /* col left ------------------------------------- */
+.montagna-row .col img{
+  height: 350px;
+  width: 100%;
+  margin: auto;
+}
+  /* col right ----------------------------------- */
+.montagna-row h3{
+  color: #4a4a4a;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  width: 70%;
+  margin: auto;
+}
+
+.montagna-row p{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  color: #999;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.montagna-row a{
+  color: #98c8f8;
+}
+
+  /* piano-row --------------------------- */
+#struttura-piano{
+  float: left;
+}
+#piano-select{
+  float: right;
 }
